@@ -1,0 +1,90 @@
+name: day_over
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # Core packages
+  flutter_riverpod: ^2.3.6
+  kartal:
+  loading_animation_widget: ^1.2.0+4
+  google_nav_bar: ^5.0.6
+
+  google_fonts: 
+  uuid: ^3.0.7
+  google_sign_in: ^6.1.4
+
+  # Firabase packages
+  cloud_firestore: ^4.8.3
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.3
+
+  # Product packages
+  animated_text_kit: ^4.2.2
+  smooth_page_indicator: ^1.1.0
+  fl_chart:
+  awesome_dialog: ^2.2.1
+  provider: ^6.0.5
+  image_picker: ^1.0.1
+  firebase_storage: ^11.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/informScreenImages/
+    - assets/iconImages/
+    - assets/homelimages/
+  #   - images/a_dot_ham.jpeg
+
+
+  fonts:
+    - family: glacial-indifference-bold
+      fonts:
+        - asset: assets\informScreenFonts\glacial-indifference-bold.otf
+    - family: TGlacialIndifference-Regular
+      fonts:
+        - asset: assets\informScreenFonts\GlacialIndifference-Regular.otf
+    - family: OpenSans-Light
+      fonts:
+        - asset: assets\informScreenFonts\OpenSans-Light.ttf
+    - family: Poppins-Bold
+      fonts:
+        - asset: assets\informScreenFonts\Poppins-Bold.ttf
+    - family: Poppins-Medium
+      fonts:
+        - asset: assets\informScreenFonts\Poppins-Medium.ttf
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
